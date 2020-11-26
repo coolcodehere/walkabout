@@ -1,0 +1,205 @@
+body, html {
+  margin: 0;
+  background-color: #FA9602;
+  height: 100%;
+}
+
+span, a, h1, h2, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  background-color: #3A3B40;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  padding: 0 30px 0 30px;
+  font-size: 18px;
+}
+
+p, span, a {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 2rem 0 2rem 0;
+}
+
+#nav-links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+#hero {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("https://i.imgur.com/fmzvK7O.jpg");
+  height: 95%;
+  background-position: center center;
+}
+
+#main-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 30% 1% 15%;
+  min-height: 90%
+}
+
+#main-hero h1 {
+  font-size: 96px;
+}
+
+#main-hero div {
+  font-size: 24px;
+}
+
+#chevron {
+  width: 25px;
+  height: 25px;
+}
+
+#info-body {
+  padding: 0 20% 0 20%;  
+}
+
+#about-us-section {
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hours-section {
+  margin: 1rem 0 3rem 0;
+}
+
+#hours {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#shop-section { 
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+#shop-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+#drivethru-section {
+}
+
+#reviews-section {
+  padding-top: 2.5%; 
+  padding-bottom: 2.5%;
+}
+
+#menu-section img{
+  padding: 0 10% 0 10%;
+}
+
+#footer {
+  background-color: #3A3B40;
+  min-height: 20%;  
+}
+
+.center-children {
+  display: flex;
+  justify-content: center;
+}
+
+.space-even-children {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.vertical-center-children {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.flex-column-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-side-padding {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.orange {
+  color: #FA9602;
+}
+
+.red {
+  color: #981002;
+}
+
+.black {
+  color: #3A3B40;
+}
+
+.light-yellow-bg {
+  background-color: #FDCA80;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.link-border {
+  border: solid 4px;
+  padding: 0.75rem; 
+}
+
+.t-32margin {
+  margin-top: 32px;
+}
+
+.s-10margin {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.t-0margin {
+  margin-top: 0px;  
+}
+
+.t-0padding {
+  padding-top: 0px;  
+}
+
+.b-32margin {
+  margin-bottom: 32px;
+}
+
+.b-64margin {
+  margin-bottom: 64px;
+}
+
+.center-text {
+  display: block;
+  text-align: center;
+}
+
+.fontsize-32 {
+  font-size: 32px;
+}
+
+.room-image {
+  width: 300px;  
+  height: 300px;
+}
